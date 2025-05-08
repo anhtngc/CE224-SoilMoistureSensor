@@ -1,18 +1,20 @@
 # CE224 - Embedded System Design
 
-## Abstract
+## Abstract 
 This research focuses on developing a temperature and humidity measurement system using commonly available electronic components such as the DHT11 sensor, ESP32, SH1106 OLED display, and a piezo buzzer. The primary objective of the system is to provide an accurate, stable, and user-friendly device with the ability to monitor environmental conditions and issue alerts when temperature thresholds are exceeded.
 
 The system operates by utilizing the DHT11 sensor to collect real-time data on temperature and humidity. This data is processed by the ESP32, which then sends it to the SH1106 OLED display for real-time monitoring. When the temperature exceeds a predefined safe threshold, the piezo buzzer emits an audible alarm, alerting the user to abnormal environmental conditions.
 
-Power for the system is supplied by a 3.7V Li-po battery, which is charged and protected via the TP4056 module. The MT3608 boost converter increases the voltage to a stable 5V to power the components. The system also features Wi-Fi connectivity, allowing remote monitoring and notifications about temperature or humidity changes.
+Power for the system is supplied by a 3.7V Li-po battery, which is charged and protected via the TP4056 module. The MT3608 boost converter increases the voltage to a stable 5V to power the components. The system also features Wi-Fi connectivity, allowing remote monitoring and notifications about temperature or humidity changes. 
+
+(Final Design showed in file ***result.mov***)
 
 ## 📑 Table of Contents
 - [About Me](#about-me)
 - [Introduction To Our Team](#introduction-to-our-team)
 - [Key Features](#key-features)
-- [Data](#data)
-- [Demo](#demo)
+- [System Architecture](#system-architecture)
+- [References](#references)
 
 ## About Me
 👋 **Name:** Trần Ngọc Ánh  
